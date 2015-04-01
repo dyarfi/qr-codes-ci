@@ -23,8 +23,8 @@ class User extends Admin_Controller {
             // Set default statuses
             $data['statuses'] = $this->configs['status'];
 
-			// Set class name to view
-			$data['class_name'] = $this->_class_name;
+	    // Set class name to view
+	    $data['class_name'] = $this->_class_name;
 
             // Get users data
             $rows = $this->Users->getAllUser();
@@ -48,7 +48,7 @@ class User extends Admin_Controller {
 
             if (@$temp_rows) $data['rows'] = $temp_rows;
 
-			// User profiles
+	    // User profiles
             $data['user_profiles'] = $this->UserProfiles->getUserProfile(Acl::user()->id);
 	    
             // Set main template

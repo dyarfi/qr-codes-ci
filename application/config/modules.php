@@ -109,16 +109,16 @@ $config['modulelist'] = array(
 						'serverlog/trash'	=> 'Trash Server Log'
 						)
 	),
-	// Career module
+	// Qrcode module
 	'Qrcode' => array (
-		// Career Models list
+		// Qrcode Models list
 		'models'		=> array('qrcode/Qrcodes'),
-		// Career module menus
+		// Qrcode module menus
 		'module_menu'		=> array(
 						'qrcode/index'		=> 'QR Codes',
 						'qrcodescanner/index'		=> 'QR Code Scanner'
 						),
-		// Career module functions
+		// Qrcode module functions
 		'module_function'	=> array(
 						// Career functions
 						'qrcode/index/add'	=> 'Add QR Code',
